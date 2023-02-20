@@ -1,0 +1,45 @@
+
+<h1>Meu Formulario</h1>
+<form action="https://formspree.io/f/xeqwadgq" method="POST">
+    
+    <p>
+        <label>Digite seu nome</label><br>
+        <input placeholder="Digite algo..." type="text" required="required" value="São Paulo" name="Nome">
+    </p>
+
+    <p>
+        <label>Digite sua mensagem:</label><br>
+        <textarea rows="10" cols="60" placeholder="Mensagem..." required="required" name="Mensagem"></textarea>
+    </p>
+
+    <p>
+        <label>Escolha um esporte que você pratica:</label><br>
+        <ul>
+            <li><input value="SIM" name="Judo" type="checkbox"> Judô</li>
+            <li><input value="SIM" name="Futebol" type="checkbox"> Futebol</li>
+            <li><input value="SIM" name="Tênis" type="checkbox"> Tênis</li>
+        </ul>
+    </p>
+
+    <p>
+        <label>Escolha sua cor favorita:</label><br>
+        <ul>
+        <li><input value="AZUL" name="CorFavorita" type="radio"> AZUL</li> 
+        <li><input value="VERMELHO" name="CorFavorita" type="radio"> VERMELHO</li>
+        <li><input value="BRANCO" name="CorFavorita" type="radio"> BRANCO</li>
+        </ul>
+    </p>
+
+    <p>
+       <label>Escolha seu Estado:</label>
+        <select>
+            <option>Selecione--</option>
+            <option value="SP">São Paulo</option>
+            <option Value="RJ">Rio de Janeiro</option>
+            <option Value="BA">Bahia</option>
+        </select>
+    </p>
+
+    <input value="SIM" name="TermosDoContrato" type="checkbox"> Eu aceito ostermos de uso do site.<br>
+    <button type="submit">Enviar Dados</button>
+</form>

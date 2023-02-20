@@ -1,0 +1,49 @@
+#header {
+    background-color: rgb(236, 203, 152);
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-family: 'Roboto Slab', serif;
+    text-transform: uppercase;
+    font-size: 10px;
+}
+#nameAndTitle {
+    background-color:white;
+    width: 500px;
+    margin: 0 auto;
+    text-align: center;
+}
+#nameAndTitle h1, h2 {
+    margin: 0;
+}
+#contact {
+    list-style: none;
+}
+#contact i {
+    width: 30px;
+    color: rgb(236, 203, 152);
+}
+#container {
+    display: grid;
+    grid-template-columns: 30% auto;
+    grid-column-gap: 20px;
+
+}
+#sidebar {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+#content {
+    display: flex;
+    flex-direction: column;
+    row-gap: 20px;
+}
+.card h3 {
+    font-family: 'Roboto Slab', serif;
+}
+.card {
+    font-family: 'Labrada', serif;
+    border: 1px solid grey;
+    border-radius: 15px;
+    padding: 20px;
+}

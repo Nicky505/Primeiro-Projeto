@@ -1,0 +1,27 @@
+h1 {
+    font-size: 40px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+
+}
+.allDivs {
+    border: 3px solid #000000;
+    border-radius: 10px;
+}
+#div1 {
+    background-color: #ad000e;
+    width: 500px;
+    height: 150px;
+}
+#div2 {
+    background-color:blue;
+    width: 500px;
+    height: 150px;
+}
+#div3 {
+    background-color:blueviolet;
+    width: 500px;
+    height: 150px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: aliceblue;
+}
